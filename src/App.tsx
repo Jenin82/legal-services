@@ -1,12 +1,17 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "./modules/LandingPage/LandingPage";
+import SignIn from "./modules/SignIn/SignIn";
 
 function App() {
     const router = createBrowserRouter([
         {
             path: "/",
             element: <LandingPage />,
+        },
+        {
+            path: "/signin",
+            element: <SignIn />,
         }
     ]);
     return <RouterProvider router={router} />;
