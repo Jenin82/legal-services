@@ -1,0 +1,25 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2rem 0;
+	height: 100vh;
+	background-color: #FBE9DC;
+}
+
+.wrapper h1 {
+	font-size: 2.5rem;
+	text-align: left !important;
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.btn {
+	padding: 0.8rem 9rem;
+	background-color: #FF4317;
+	border: none;
+	font-size: 16px;
+	border-radius: 5px;
+	color: white;
+}
