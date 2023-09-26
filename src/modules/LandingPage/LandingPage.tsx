@@ -13,7 +13,7 @@ const LandingPage = () => {
                 </div>
                 <div className={styles.signInButtons}>
                     <button className={styles.redButton}>Sign In</button>
-                    <button className={styles.whiteButton}>Cancel</button>
+                    <button className={styles.whiteButton}>Sign Up</button>
                 </div>
             </div>
         </>
