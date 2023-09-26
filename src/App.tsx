@@ -3,8 +3,16 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "./modules/LandingPage/LandingPage";
 import SignUp from "./modules/SignUp/Signup";
 import SignIn from "./modules/SignIn/SignIn";
+import { useEffect } from "react";
 
 function App() {
+	useEffect(() => {
+		window.addEventListener("beforeunload", function (e) {
+			e.preventDefault();
+			e.returnValue = "";
+		});
+	}, [])
+	
     const router = createBrowserRouter([
         {
             path: "/",

@@ -15,6 +15,30 @@
 	padding: 0 1rem;
 }
 
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.input {
+	display: flex;
+	gap: 5px;
+	flex-direction: column;
+}
+
+.checkbox {
+	display: flex;
+	color: gray;
+}
+
+.input input {
+	height: 2.5rem;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+}
+
 .btn {
 	padding: 0.8rem 9rem;
 	background-color: #FF4317;
