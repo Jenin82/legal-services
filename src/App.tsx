@@ -4,6 +4,7 @@ import LandingPage from "./modules/LandingPage/LandingPage";
 import SignUp from "./modules/SignUp/Signup";
 import SignIn from "./modules/SignIn/SignIn";
 import { useEffect } from "react";
+import HomePage from "./modules/HomePage/HomePage";
 
 function App() {
 	useEffect(() => {
@@ -25,6 +26,10 @@ function App() {
         {
             path: "/signup",
             element: <SignUp />,
+        },
+        {
+            path: "/home",
+            element: <HomePage />,
         }
     ]);
     return <RouterProvider router={router} />;
