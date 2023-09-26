@@ -1,7 +1,7 @@
 .wrapper {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: column;
 	padding: 2rem 0;
 	height: 100vh;
@@ -13,12 +13,15 @@
 	text-align: left !important;
 	width: 100%;
 	padding: 0 1rem;
+	margin-bottom: 3rem;
 }
 
 .form {
+	margin-top: 5rem;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 20px;
+	margin-bottom: 5rem;
 }
 
 .input {
@@ -27,9 +30,15 @@
 	flex-direction: column;
 }
 
-.checkbox {
+.checkbox, .formBottom p {
 	display: flex;
 	color: gray;
+	gap: 5px;
+}
+
+.formBottom {
+	display: flex;
+	justify-content: space-between;
 }
 
 .input input {
@@ -46,4 +55,9 @@
 	font-size: 16px;
 	border-radius: 5px;
 	color: white;
+}
+
+.form p {
+	text-align: center;
+	color: gray;
 }

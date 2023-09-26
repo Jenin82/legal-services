@@ -16,7 +16,7 @@ const SignIn = () => {
                         <label htmlFor="">Password</label>
                         <input type="text" placeholder="Enter Password" />
                     </div>
-                    <div>
+                    <div className={style.formBottom}>
                         <div className={style.checkbox}>
                             <input
                                 type="checkbox"
