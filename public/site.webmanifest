@@ -1,7 +1,7 @@
 {
-	"name": "Weather Ups",
-	"short_name": "Weather Ups",
-	"description": "An app that can show weather forecast for your city.",
+	"name": "Legal Bridge",
+	"short_name": "Legal Bridge",
+	"description": "An app for all your legal services.",
 	"icons": [
 		{
 			"src": "/android-chrome-192x192.png",
