@@ -1,0 +1,57 @@
+/* SignIn.css */
+
+.signInContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assests/Desktop - 21.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .signInContent {
+    position: relative; /* Add relative positioning */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .signInHeading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .signInButtons {
+    position: absolute; /* Add absolute positioning */
+    bottom: 20px; /* Adjust this value to your desired vertical position */
+    display: flex;
+    gap: 10px;
+  }
+  
+  .redButton {
+    background-color: red; /* Customize button styles as needed */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .whiteButton {
+    background-color: white; /* Customize button styles as needed */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
