@@ -3,7 +3,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 2rem 0;
+	padding: 2.5rem 0;
     width: 100%;
     height: 100vh;
 	background-image: url("../../assests/Desktop - 21.svg");
@@ -31,7 +31,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	gap: 0.5rem;
+	gap: 0.6rem;
 }
 
 .signInButtons button {
@@ -41,4 +41,9 @@
 	font-size: 16px;
 	border-radius: 5px;
 	color: white;
+}
+
+.whiteButton {
+	background-color: white !important;
+	color: black !important;
 }
